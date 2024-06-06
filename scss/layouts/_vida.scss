@@ -1,0 +1,336 @@
+.primer-contenedor-vida {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 1349px;
+    height: 800px;
+    background-color: #222222;
+
+    .primer-box-vida {
+        width: 100%;
+        height: 500px;
+        background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.638)), url(../imagenes/vida/banner.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        h2 {
+            font-size: 120px;
+            text-align: center;
+            font-family: "Black Ops One", system-ui;
+            margin: 40px;
+            color: rgba(255, 255, 255, 0.403);
+        }
+    }
+
+    .segundo-box-vida {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 150px;
+        p {
+            width: 1000px;
+            height: 300px;
+            font-size: 20px;
+            text-align: center;
+            color: black;
+        }
+    }
+}
+
+.segundo-contenedor-vida {
+    width: 100%;
+    height: 880px;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        color: black;
+        font-family: "Jaro", sans-serif;
+        font-size: 60px;
+        margin: 70px;
+        transition: 1s;
+
+        &:hover {
+            color: rgb(200, 200, 200);
+        }
+    }
+
+    .articulo-vida {
+        width: 100%;
+        height: 700px;
+        background-color: rgb(34, 34, 34);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .primer-div {
+            width: 50%;
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                color: black;
+                font-size: 40px;
+                margin: 60px;
+                transition: 1s;
+
+                &:hover {
+                    color: rgb(200, 200, 200);
+                }
+            }
+            p {
+                font-size: 18px;
+                color: black;
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+        .segundo-div {
+            width: 50%;
+            height: 650px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                color: black;
+                font-size: 40px;
+                margin: 60px;
+                transition: 1s;
+
+                &:hover {
+                    color: rgb(200, 200, 200);
+                }
+            }
+            p {
+                font-size: 18px;
+                color: black;
+                width: 500px;
+                height: 500px;
+            }
+        }
+    }
+}
+
+
+.tercer-contenedor-vida {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+
+    h2 {
+        color: black;
+        font-size: 70px;
+        font-family: "Jaro", sans-serif;
+        margin: 40px;
+        transition: 1s;
+
+        &:hover {
+            color: rgb(200, 200, 200);
+        }
+    }
+
+    p {
+        width: 1220px;
+        height: 500px;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+.cuarto-contenedor-vida {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+
+    .div-salud-mental {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 400px;
+        transition: 1s;
+
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            transition: 1s;
+        }
+        p {
+            color: black;
+            width: 500px;
+            height: 400px;
+            margin: 20px;
+            font-size: 16px;
+            text-align: center;
+            transition: 1s;
+        }
+
+        &:hover {
+            border: 2px solid rgb(200, 200, 200);
+            border-radius: 10px;
+            img {
+                width: 225px;
+                height: 225px;
+            }
+            p {
+                font-size: 20px;
+                width: 800px;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .primer-contenedor-vida {
+        width: 420px;
+        height: 1000px;
+    
+        .primer-box-vida {
+            width: 420px;
+            height: 500px;
+            margin-top: 100px;
+            
+            h2 {
+                padding-top: 100px;
+                font-size: 55px;
+                margin: 40px;
+            }
+        }
+    
+        .segundo-box-vida {
+            width: 420px;
+            height: 500px;
+            margin: 0;
+            p {
+                width: 360px;
+                height: 400px;
+                font-size: 17px;
+
+            }
+        }
+    }
+
+
+    .segundo-contenedor-vida {
+        width: 420px;
+        height: 1850px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        h2 {
+            color: black;
+            font-family: "Jaro", sans-serif;
+            font-size: 40px;
+            text-align: center;
+            margin: 40px;
+            transition: 1s;
+        }
+    
+        .articulo-vida {
+            width: 420px;
+            height: 1600px;
+            background-color: rgb(34, 34, 34);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+    
+            .primer-div {   
+                width: 420px;
+                height: 750px;
+    
+                h2 {
+                    font-size: 35px;
+                    margin: 30px;
+                }
+                p {
+                    font-size: 18px;
+                    width: 380px;
+                    height: 500px;
+                }
+            }
+    
+            .segundo-div {
+                width: 420px;
+                height: 850px;
+    
+                h2 {
+                    font-size: 35px;
+                    margin: 30px;
+                }
+                p {
+                    font-size: 18px;
+                    width: 380px;
+                    height: 500px;
+                }
+            }
+        }
+    }
+
+
+    .tercer-contenedor-vida {
+        width: 420px;
+        height: 1000px;
+    
+        h2 {
+            font-size: 40px;
+            margin: 40px;
+        }
+    
+        p {
+            width: 360px;
+            height: 900px;
+            color: black;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    .cuarto-contenedor-vida {
+        width: 100%;
+        height: 400px;
+    
+        .div-salud-mental {
+            width: 420px;
+            height: 400px;
+    
+            img {
+                width: 150px;
+                height: 150px;
+            }
+            p {
+                width: 360px;
+                height: 400px;
+                margin: 20px;
+                font-size: 16px;
+                text-align: center;
+                transition: 1s;
+            }
+        }
+    }
+}

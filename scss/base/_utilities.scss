@@ -1,0 +1,23 @@
+
+// tipografia importada
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Jaro:opsz@6..72&display=swap');
+// font-family: "Jaro", sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+// font-family: "Freeman", sans-serif;
+
+
+// clases del navegador responsive
+.bg-grey {
+    background-color: rgb(34, 34, 34);
+}
+.tamaño-imagen {
+    width: 85px;
+    height: 80px;
+}
+.tamaño-borde {
+    border: 1px solid rgb(200, 200, 200);
+}
